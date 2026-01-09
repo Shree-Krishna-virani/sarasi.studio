@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Story | sarasi.studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        h1, h2, h3, .serif {
+            font-family: 'Playfair Display', serif;
+        }
+        .pearl-gradient {
+            background: linear-gradient(135deg, #fffcf5 0%, #f7f3e9 100%);
+        }
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+        }
+        ::selection {
+            background: #d4a373;
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-[#fafaf9] text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-nav border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold tracking-widest lowercase serif">sarasi.studio</a>
+            <div class="hidden md:flex space-x-8 text-sm uppercase tracking-widest font-medium text-stone-600">
+                <a href="index.html" class="hover:text-amber-700 transition">Home</a>
+                <a href="story.html" class="text-amber-800 font-bold border-b border-amber-800">Our Story</a>
+                <a href="index.html#collection" class="hover:text-amber-700 transition">Collection</a>
+                <a href="index.html#contact" class="hover:text-amber-700 transition">Inquire</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="index.html#collection" class="bg-stone-900 text-white px-5 py-2 rounded-full text-xs uppercase tracking-widest hover:bg-stone-700 transition hidden sm:block text-center">
+                    Shop
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section class="pt-32 pb-16 px-6 text-center">
+        <div class="max-w-3xl mx-auto">
+            <span class="text-xs uppercase tracking-[0.5em] text-stone-400 font-semibold mb-4 block">The Heritage</span>
+            <h1 class="text-5xl md:text-6xl mb-8 leading-tight">Crafting Memories, One Bead at a Time</h1>
+            <p class="text-stone-500 text-lg font-light leading-relaxed">
+                sarasi.studio was born from a simple love for the luster of pearls and the meditative rhythm of hand-weaving.
+            </p>
+        </div>
+    </section>
+
+    <!-- Image Grid Section -->
+    <section class="px-6 pb-24">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+            <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&q=80&w=1200" 
+                 alt="Pearl detail" 
+                 class="rounded-3xl w-full h-[500px] object-cover shadow-lg"
+                 onerror="this.src='https://via.placeholder.com/600x800?text=The+Art+of+Pearls'">
+            <div class="flex flex-col justify-center space-y-8 md:pl-12">
+                <div>
+                    <h2 class="text-3xl mb-4 serif">The Beginning</h2>
+                    <p class="text-stone-600 leading-relaxed">
+                        Every journey has a spark. For sarasi.studio, it started in a small home workshop with a single strand of pearls and a vision to create something that felt both ancient and modern. We wanted to move away from fast fashion and return to the "slow made" movement.
+                    </p>
+                </div>
+                <div>
+                    <h2 class="text-3xl mb-4 serif">The Philosophy</h2>
+                    <p class="text-stone-600 leading-relaxed">
+                        We believe that a bag isn't just an accessory; it's a companion to your most cherished moments. Whether it's your wedding day or a quiet evening out, our purses are designed to carry your essentials with grace.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="py-24 px-6 bg-stone-100">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl serif mb-4">Our Process</h2>
+                <div class="w-20 h-0.5 bg-amber-800 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Step 1 -->
+                <div class="text-center group">
+                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm group-hover:bg-amber-800 group-hover:text-white transition-colors duration-500">
+                        <span class="text-xl serif italic">01</span>
+                    </div>
+                    <h3 class="text-xl mb-3 font-semibold uppercase tracking-wider text-sm">Selection</h3>
+                    <p class="text-stone-500 text-sm leading-relaxed">
+                        We hand-select every bead for its luster and uniformity. Only the finest materials make it into a sarasi.studio piece.
+                    </p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="text-center group">
+                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm group-hover:bg-amber-800 group-hover:text-white transition-colors duration-500">
+                        <span class="text-xl serif italic">02</span>
+                    </div>
+                    <h3 class="text-xl mb-3 font-semibold uppercase tracking-wider text-sm">Weaving</h3>
+                    <p class="text-stone-500 text-sm leading-relaxed">
+                        Using a high-strength nylon core, each bag is hand-woven over 15 to 20 hours to ensure structural integrity and beauty.
+                    </p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="text-center group">
+                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm group-hover:bg-amber-800 group-hover:text-white transition-colors duration-500">
+                        <span class="text-xl serif italic">03</span>
+                    </div>
+                    <h3 class="text-xl mb-3 font-semibold uppercase tracking-wider text-sm">Finishing</h3>
+                    <p class="text-stone-500 text-sm leading-relaxed">
+                        The final assembly involves lining the interior and attaching custom hardware, resulting in a masterpiece ready for you.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Quote -->
+    <section class="py-24 px-6 bg-white text-center italic">
+        <div class="max-w-3xl mx-auto">
+            <svg class="w-12 h-12 text-amber-100 mx-auto mb-8" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M14.017 21L14.017 18C14.017 16.899 14.899 16.017 16 16.017L19 16.017C19.552 16.017 20 15.569 20 15.017L20 9.017C20 8.465 19.552 8.017 19 8.017L15 8.017C14.448 8.017 14 7.569 14 7.017L14 4.017C14 3.465 14.448 3.017 15 3.017L21 3.017C21.552 3.017 22 3.465 22 4.017L22 15.017C22 18.321 19.321 21 16 21L14.017 21ZM1 21L1 18C1 16.899 1.899 16.017 3 16.017L6 16.017C6.552 16.017 7 15.569 7 15.017L7 9.017C7 8.465 6.552 8.017 6 8.017L2 8.017C1.448 8.017 1 7.569 1 7.017L1 4.017C1 3.465 1.448 3.017 2 3.017L8 3.017C8.552 3.017 9 3.465 9 4.017L9 15.017C9 18.321 6.321 21 3 21L1 21Z" />
+            </svg>
+            <p class="text-2xl md:text-3xl text-stone-700 leading-relaxed mb-8">
+                "Our goal isn't just to make purses; it's to create modern heirlooms that can be passed down through generations."
+            </p>
+            <span class="text-sm uppercase tracking-widest font-bold not-italic text-stone-400">— Founder, sarasi.studio</span>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-stone-950 py-16 px-6 border-t border-stone-900">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10">
+            <div class="text-center md:text-left">
+                <div class="text-3xl font-bold tracking-widest lowercase serif text-white mb-2">sarasi.studio</div>
+                <p class="text-stone-500 text-sm max-w-xs">Elegance in every bead. Handcrafted pearl purses for every occasion.</p>
+            </div>
+            
+            <div class="flex flex-col items-center md:items-end space-y-4">
+                <div class="flex space-x-8 text-stone-400 text-sm uppercase tracking-widest">
+                    <a href="#" class="hover:text-white transition">Instagram</a>
+                    <a href="#" class="hover:text-white transition">Pinterest</a>
+                    <a href="#" class="hover:text-white transition">Etsy</a>
+                </div>
+                <p class="text-stone-600 text-xs mt-4 uppercase tracking-[0.2em]">&copy; 2024 sarasi.studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
